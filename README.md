@@ -1,2 +1,2 @@
-# HTML_Projects
-HTML Dev Rev
+# Javascript_Projects
+Javascript Dev Rev
