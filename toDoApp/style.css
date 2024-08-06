@@ -1,0 +1,101 @@
+*{
+    background-color: white;
+}
+h1{
+    color: black;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"]{
+    width: 65vw;
+    height: 8vh;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    background-color: orange;
+
+}
+input[type="date"]{
+    width: 40vw;
+    height: 8vh;
+    font-size: 15px;
+    background-color: orange;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0%;
+    color: black;
+    font-weight: bolder;
+
+}
+label{
+    display: flex;
+    font-size:20px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+::placeholder{
+    color: black;
+    font-size: 20px;
+    text-align: centers;
+}
+
+select{
+    width: 40vw;
+    height: 4vh;
+    color: black;
+    font-weight: bolder;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    width: 40vw;
+    height: 5vh;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 40%;
+}
+input[type="text"]:focus::placeholder{
+    color: transparent;
+}
+input[type="text"]:focus,input[type="date"]:focus,select:focus{
+    font-size: larger;
+    font-weight: bolder;
+    box-shadow: 10px 5px 5px orangered;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    cursor:grab;
+}
+table{
+    border: 2px black solid;
+}
+#bottom{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tr,td{
+    border: 2px black solid;
+    padding: 5px;
+}
+th{
+    border: 2px black solid;
+    padding: 5px;
+}
