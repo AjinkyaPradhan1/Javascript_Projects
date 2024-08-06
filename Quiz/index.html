@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="quiz.css" rel="stylesheet">
+    <link href="./icon.jpg" rel="icon">
+</head>
+<body>
+    
+    
+    <form class="kbc">
+        <fieldset>
+            <legend>Kaun Banega CrorePati</legend>
+
+            
+            <div id="que1">
+                <strong><h2><center>Q1. Guess The Flag</center></h2></strong>
+                <center><img src="./japan.png" style="width:300px; height:200px;"></center>
+                
+                    <div id="ans1">
+                        <input type="radio" name="q1" value="japan">
+                        Japan
+                    </div>
+
+                    <div id="ans2">
+                        <input type="radio" name="q1" value="india">
+                        India
+                    </div><br>
+
+                    <div id="ans3">
+                        <input type="radio" name="q1" value="usa">
+                        USA
+                    </div><br>
+
+                    <div id="ans4">
+                        <input type="radio" name="q1" value="ukraine">
+                        Ukraine
+                    </div>
+                
+            </div>
+
+            
+            <div id="divider"></div>
+            
+
+
+            <div id="que2">
+                <strong><h2><center>Q2. Guess The Capital</center></h2></strong>
+                <center><img src="./italy.svg" style="width:300px; height:200px;"></center>
+                
+                    <div id="ans1">
+                        <input type="radio" name="q2" value="genoa">
+                        Genoa
+                    </div>
+
+                    <div id="ans2">
+                        <input type="radio" name="q2" value="milan">
+                        Milan
+                    </div><br>
+
+                    <div id="ans3">
+                        <input type="radio" name="q2" value="florence">
+                        Florence
+                    </div><br>
+
+                    <div id="ans4">
+                        <input type="radio" name="q2" value="rome">
+                        Rome
+                    </div>
+                
+            </div>
+
+            
+            <div id="divider"></div>
+
+            <div id="que3">
+                <strong><h2><center>Q3. Guess The Country which is the birthplace of this Sportsperson</center></h2></strong>
+                <center><img src="./messi.jpg" style="width:200px; height:200px;"></center>
+                
+                    <div id="ans1">
+                        <input type="radio" name="q3" value="spain">
+                        Spain
+                    </div>
+
+                    <div id="ans2">
+                        <input type="radio" name="q3" value="arg">
+                        Argentina
+                    </div><br>
+
+                    <div id="ans3">
+                        <input type="radio" name="q3" value="france">
+                        France
+                    </div><br>
+
+                    <div id="ans4">
+                        <input type="radio" name="q3" value="brazil">
+                        Brazil
+                    </div>
+                
+            </div>
+
+            
+            <div id="divider"></div>
+
+            <div id="que4">
+                <strong><h2><center>Q4. Guess The Country Where this Monument Lies</center></h2></strong>
+                <center><img src="./redFort.jpg" style="width:200px; height:200px;"></center>
+                
+                    <div id="ans1">
+                        <input type="radio" name="q4" value="pak">
+                        Pakistan
+                    </div>
+
+                    <div id="ans2">
+                        <input type="radio" name="q4" value="ind">
+                        India
+                    </div><br>
+
+                    <div id="ans3">
+                        <input type="radio" name="q4" value="ban">
+                        Bangladesh
+                    </div><br>
+
+                    <div id="ans4">
+                        <input type="radio" name="q4" value="sl">
+                        SriLanka
+                    </div>
+                
+            </div>
+
+            
+            <div id="divider"></div>
+
+            <div id="que5">
+                <strong><h2><center>Q5. Guess the Country from which this Leader Belongs to</center></h2></strong>
+                <center><img src="./putin.jpg" style="width:200px; height:200px;"></center>
+                
+                    <div id="ans1">
+                        <input type="radio" name="q5" value="usa">
+                        USA
+                    </div>
+
+                    <div id="ans2">
+                        <input type="radio" name="q5" value="uk">
+                        UK
+                    </div><br>
+
+                    <div id="ans3">
+                        <input type="radio" name="q5" value="russia">
+                        Russia
+                    </div><br>
+
+                    <div id="ans4">
+                        <input type="radio" name="q5" value="ukr">
+                        Ukraine
+                    </div>
+                
+            </div>
+
+            
+            <div id="divider"></div>
+
+
+            <center><button type="button" id="button" onclick="checkAns()"><strong>Submit</strong></button></center>
+        </fieldset>
+
+        
+    </form>
+
+    <div id="output">
+
+    </div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
