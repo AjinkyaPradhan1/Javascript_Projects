@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Till 23?</title>
+    
+  </head>
+  <body>
+  <br><br><br><br><br><br><br><br><br><br>  
+    <center><div class="bdayCnt">BIRTHDAY COUNTDOWN:</div></center><br>
+    <center><div id="timer"></div></center>
+	  <script>
+      let targetDate = new Date('2024-08-25T00:00:00')
+      
+      function updateCountDown(){
+        let currentDate = new Date();
+        const timeDifference = targetDate - currentDate;
+
+        const days= Math.floor((timeDifference/(1000*60*60*24))); 
+        const hours=Math.floor((timeDifference%(1000*60*60*24))/(1000*60*60));
+        const minutes = Math.floor((timeDifference%(1000*60*60))/(1000*60));
+        const seconds = Math.floor((timeDifference%(1000*60))/1000);
+
+        document.getElementById("timer").innerHTML = `${days}days ${hours}hrs ${minutes}mins ${seconds}secs`
+
+        setTimeout(updateCountDown,1000);
+      }
+
+      updateCountDown()
+      
+    </script>
+  </body>
+</html>
