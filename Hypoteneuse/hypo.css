@@ -1,0 +1,29 @@
+body{
+    background-image: url('back2.webp');
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+}
+
+
+input[type=text]:focus{
+    background-color: lemonchiffon;
+}
+
+input[type=email]:focus{
+    background-color: lemonchiffon;
+}
+
+h2{
+    margin-top: 140px;
+}
+
+#bt1{
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: lemonchiffon;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bolder;
+    
+}
