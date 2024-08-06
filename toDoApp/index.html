@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do JS App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div id="container">
+        
+          <div id="top">
+            <h1>TO DO App</h1>
+            <form id="formToDo">
+              <input type="text" id="desc" placeholder="Enter Task Details" required><br>
+              <label>Enter Starting Date</label><input type="date" id="dateStart" required><br>
+              <label>Enter Ending Date</label><input type="date" id="dateEnd" required><br>
+              <select id="selectP" required>
+                <option value="">Select Priority</option>
+                <option id="high" value="High">High Priority</option>
+                <option id="med" value="Medium">Medium Priority</option>
+                <option id="low" value="Low">Low Priority</option>
+              </select>
+              <br>
+              <input type="submit" value="Submit" id="submitBtn">
+            </form>
+          </div>
+
+          <div id="bottom">
+            <table>
+              <thead>
+                <tr>
+                  <th>Task Details</th>
+                  <th>Starting Date</th>
+                  <th>Ending Date</th>
+                  <th>Priority</th>
+                </tr>
+              </thead>
+              <tbody id="tList">
+
+              </tbody>
+            </table>
+          </div>
+       
+      </div>
+	<script src="index.js"></script>
+  </body>
+</html>
